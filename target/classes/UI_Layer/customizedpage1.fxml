@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <Button layoutX="109.0" layoutY="53.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="377.0" text="SELECT FUNCTION" textFill="#da0b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <SplitPane dividerPositions="0.5033444816053512" layoutX="-6.0" layoutY="95.0" prefHeight="303.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.5033783783783784" prefHeight="303.0" prefWidth="298.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="301.0" prefWidth="134.0">
+                           <children>
+                              <SplitPane dividerPositions="0.5" layoutX="-7.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="301.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="111.0" prefWidth="158.0">
+                                       <effect>
+                                          <ColorAdjust />
+                                       </effect>
+                                       <children>
+                                          <ImageView fitHeight="149.0" fitWidth="158.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="mehndibutton" layoutX="29.0" layoutY="60.0" mnemonicParsing="false" onAction="#mehndibuttonfun" text="MEHNDI " textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children></AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="179.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="mayonbtn" layoutX="38.0" layoutY="55.0" mnemonicParsing="false" onAction="#mayonfn" text="MAYON" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children></AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane layoutX="-8.0" layoutY="-7.0" orientation="VERTICAL" prefHeight="310.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="159.0" prefWidth="158.0">
+                                       <children>
+                                          <ImageView fitHeight="155.0" fitWidth="170.0" layoutX="-6.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="baratbutn" layoutX="30.0" layoutY="66.0" mnemonicParsing="false" onAction="#baratbutnfn" prefHeight="37.0" prefWidth="91.0" text="BARAT" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                          <ImageView fitHeight="151.0" fitWidth="182.0" layoutX="2.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="dholkibtn" layoutX="34.0" layoutY="214.0" mnemonicParsing="false" onAction="#dholkifn" text="DHOLKI" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children></AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" layoutX="1.0" layoutY="-2.0" prefHeight="317.0" prefWidth="298.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane dividerPositions="0.5" layoutX="-7.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="310.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="62.0">
+                                       <children>
+                                          <ImageView fitHeight="146.0" fitWidth="146.0" layoutX="7.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="receptionbtn" layoutX="15.0" layoutY="66.0" mnemonicParsing="false" onAction="#receptionfn" text="RECEPTION" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <ImageView fitHeight="165.0" fitWidth="160.0" layoutX="-5.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="nikkahbtn" layoutX="37.0" layoutY="55.0" mnemonicParsing="false" onAction="#nikkahfn" text="NIKKAH" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children></AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane layoutX="-7.0" orientation="VERTICAL" prefHeight="310.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                        <AnchorPane layoutX="134.0" layoutY="13.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                                          <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="shalimabtn" layoutX="28.0" layoutY="51.0" mnemonicParsing="false" onAction="#shalimafn" text="SHALIMA" textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                          <ImageView fitHeight="151.0" fitWidth="151.0" layoutX="3.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Button fx:id="mehndibtn" layoutX="38.0" layoutY="205.0" mnemonicParsing="false" onAction="#mehndifn" text="MEHNDI " textFill="#e40000">
+                                             <font>
+                                                <Font name="System Bold Italic" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button layoutX="-6.0" layoutY="1.0" mnemonicParsing="false" onAction="#home3" prefHeight="95.0" prefWidth="115.0" text="Home" textFill="#c90707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="109.0" layoutY="1.0" mnemonicParsing="false" onAction="#bookevent3" prefHeight="52.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="235.0" layoutY="1.0" mnemonicParsing="false" onAction="#eventtype3" prefHeight="52.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="370.0" layoutY="1.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="115.0" text="About Us" textFill="#bc0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="481.0" layoutY="1.0" mnemonicParsing="false" onAction="#back3" prefHeight="95.0" prefWidth="126.0" text="Back" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

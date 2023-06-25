@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <Label layoutX="188.0" layoutY="25.0" text="PLEASE SELECT SITTING" textFill="#d30000">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <SplitPane dividerPositions="0.5" layoutX="-4.0" layoutY="60.0" prefHeight="341.0" prefWidth="608.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.5014836795252225" layoutX="-2.0" layoutY="2.0" orientation="VERTICAL" prefHeight="339.0" prefWidth="300.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ImageView fitHeight="198.0" fitWidth="298.0" layoutX="2.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icons/Capture1.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="3.0" layoutY="140.0" mnemonicParsing="false" onAction="#gardentheme" text="Garden Theme" textFill="#c90000">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ImageView fitHeight="186.0" fitWidth="309.0" layoutX="1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icons/t9.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="3.0" layoutY="140.0" mnemonicParsing="false" onAction="#mountainstheme" text="Mountains Theme" textFill="#c90000">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.504424778761062" layoutX="-8.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="311.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ImageView fitHeight="272.0" fitWidth="424.0" layoutX="5.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icons/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="4.0" layoutY="144.0" mnemonicParsing="false" onAction="#seaviewtheme" prefHeight="25.0" prefWidth="119.0" text="Sea View Theme" textFill="#c90000">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ImageView fitHeight="180.0" fitWidth="320.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icons/t8.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="-1.0" layoutY="140.0" mnemonicParsing="false" onAction="#redvelvettheme" prefHeight="25.0" prefWidth="126.0" text="Red Velvet Theme" textFill="#c90000">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button layoutX="382.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="119.0" text="About Us" textFill="#bc0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="124.0" layoutY="55.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="376.0" text="YOUR CHOICE" textFill="#cd3737">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="-2.0" mnemonicParsing="false" onAction="#eventtype14" prefHeight="58.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="-2.0" mnemonicParsing="false" onAction="#bookevent14" prefHeight="58.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="496.0" layoutY="-1.0" mnemonicParsing="false" onAction="#back14" prefHeight="101.0" prefWidth="111.0" text="Back" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutY="-9.0" mnemonicParsing="false" onAction="#home14" prefHeight="111.0" prefWidth="126.0" text="Home" textFill="#c90707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

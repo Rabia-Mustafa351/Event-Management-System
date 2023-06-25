@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <ImageView fitHeight="417.0" fitWidth="941.0" layoutX="-5.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/istockphoto-1296327875-170667a.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="l3" layoutX="102.0" layoutY="310.0" mnemonicParsing="false" onAction="#l3f" prefHeight="39.0" prefWidth="253.0" text="chandeliers " textFill="#900f0f">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="l4" layoutX="102.0" layoutY="258.0" mnemonicParsing="false" onAction="#l4f" prefHeight="39.0" prefWidth="253.0" text="mason jar lamps" textFill="#900f0f">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="c1" layoutX="101.0" layoutY="158.0" mnemonicParsing="false" onAction="#c1f" prefHeight="39.0" prefWidth="253.0" text="candles" textFill="#a43131">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="l2" layoutX="100.0" layoutY="207.0" mnemonicParsing="false" onAction="#l2f" prefHeight="39.0" prefWidth="253.0" text="lanterns" textFill="#900f0f">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="356.0" layoutY="217.0" text="RS 6000" textFill="#ff8989">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="269.0" prefHeight="21.0" prefWidth="72.0" text="RS 8000" textFill="#ee6868">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="360.0" layoutY="320.0" text="RS 10000" textFill="#f87676">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="167.0" text="RS 4000" textFill="#f87c7c">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#home5" prefHeight="95.0" prefWidth="126.0" text="Home" textFill="#c90707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="55.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="369.0" text="YOUR CHOICE IN LIGHTNING" textFill="#cd3737">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="126.0" mnemonicParsing="false" onAction="#bookevent5" prefHeight="58.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="252.0" mnemonicParsing="false" onAction="#eventtype5" prefHeight="58.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="387.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="119.0" text="About Us" textFill="#bc0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="489.0" mnemonicParsing="false" onAction="#back5" prefHeight="95.0" prefWidth="111.0" text="Back" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <SplitPane dividerPositions="0.24120603015075376" layoutX="-6.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="612.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="50.0" prefWidth="610.0">
+               <children>
+                  <Button layoutX="383.0" layoutY="-4.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="119.0" text="About Us" textFill="#bc0303">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="125.0" layoutY="-4.0" mnemonicParsing="false" onAction="#bookevent8" prefHeight="58.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="251.0" layoutY="-6.0" mnemonicParsing="false" onAction="#eventtype8" prefHeight="61.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="502.0" layoutY="-1.0" mnemonicParsing="false" onAction="#back88" prefHeight="95.0" prefWidth="111.0" text="Back" textFill="#b50404">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="124.0" layoutY="52.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="379.0" text="SELECT FOOD" textFill="#cd3737">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" onAction="#home8" prefHeight="100.0" prefWidth="126.0" text="Home" textFill="#c90707">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="297.0" prefWidth="610.0">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="859.0" layoutX="-54.0" layoutY="-99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/images.jpg" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="soupbtn" layoutX="35.0" layoutY="39.0" mnemonicParsing="false" onAction="#soupfn" prefHeight="30.0" prefWidth="71.0" text="SOUP" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <Label layoutX="41.0" layoutY="5.0" text="STARTER" textFill="#680606">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="friesbtn" layoutX="35.0" layoutY="69.0" mnemonicParsing="false" onAction="#friesfn" prefHeight="30.0" prefWidth="71.0" text="FRIES" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="saladbtn" layoutX="35.0" layoutY="94.0" mnemonicParsing="false" onAction="#saladfn" prefHeight="30.0" prefWidth="71.0" text="SALAD" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="coldrinkbtn" layoutX="35.0" layoutY="124.0" mnemonicParsing="false" onAction="#coldrinkfn" prefHeight="30.0" prefWidth="128.0" text="COLD DRINK" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <Separator layoutX="153.0" orientation="VERTICAL" prefHeight="270.0" prefWidth="13.0" />
+                  <CheckBox fx:id="ChickenPulaobtn" layoutX="168.0" layoutY="48.0" mnemonicParsing="false" onAction="#ChickenPulaofn" prefHeight="30.0" prefWidth="128.0" text="Chicken Pulao" textFill="#dd4141">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="MuttonQormabtn" layoutX="168.0" layoutY="73.0" mnemonicParsing="false" onAction="#MuttonQormafn" prefHeight="30.0" prefWidth="128.0" text="Mutton Qorma" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="Nanbtn" layoutX="321.0" layoutY="150.0" mnemonicParsing="false" onAction="#Nanfn" prefHeight="30.0" prefWidth="71.0" text="Nan" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="chickenbotitikka" layoutX="168.0" layoutY="123.0" mnemonicParsing="false" onAction="#chickenbotitikkafn" prefHeight="30.0" prefWidth="160.0" text="Chicken boti Tikka" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="SeekhKababbtn" layoutX="168.0" layoutY="148.0" mnemonicParsing="false" onAction="#SeekhKababfn" prefHeight="30.0" prefWidth="136.0" text="Seekh Kabab" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="Muttonkunnabtn" layoutX="320.0" layoutY="123.0" mnemonicParsing="false" onAction="#Muttonkunnafn" prefHeight="30.0" prefWidth="128.0" text="Mutton kunna" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <AnchorPane layoutX="401.0" layoutY="51.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <CheckBox layoutX="330.0" layoutY="71.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="SOUP" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox layoutX="328.0" layoutY="107.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="FRIES" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox layoutX="330.0" layoutY="147.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="71.0" text="SALAD" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="kheerbtn" layoutX="86.0" layoutY="30.0" mnemonicParsing="false" onAction="#kheerfn" prefHeight="30.0" prefWidth="71.0" text="Kheer" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="firnibtn" layoutX="86.0" layoutY="1.0" mnemonicParsing="false" onAction="#firnifn" prefHeight="30.0" prefWidth="71.0" text="Firni" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                        <Separator layoutX="74.0" layoutY="-47.0" orientation="VERTICAL" prefHeight="270.0" prefWidth="13.0" />
+                        <CheckBox fx:id="fruittrifflebtn" layoutX="87.0" layoutY="61.0" mnemonicParsing="false" onAction="#fruittrifflefn" prefHeight="30.0" prefWidth="105.0" text="Fruit Trifle" textFill="#d71313">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </AnchorPane>
+                  <CheckBox fx:id="BonelessChickenjalferazibtn" layoutX="167.0" layoutY="197.0" mnemonicParsing="false" onAction="#BonelessChickenjalferazifn" prefHeight="30.0" prefWidth="201.0" text="Boneless Chicken jalferazi" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="MuttonBriyani" layoutX="320.0" layoutY="46.0" mnemonicParsing="false" onAction="#MuttonBriyanifn" prefHeight="30.0" prefWidth="136.0" text="Mutton Briyani" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="gajarHalwabtn" layoutX="487.0" layoutY="144.0" mnemonicParsing="false" onAction="#gajarHalwafn" prefHeight="30.0" prefWidth="120.0" text="Gajar halwa" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="Chickensteamroastbtn" layoutX="320.0" layoutY="98.0" mnemonicParsing="false" onAction="#Chickensteamroastfn" prefHeight="30.0" prefWidth="171.0" text="Chicken steam roast" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="MuttonBadamiKormabtn" layoutX="167.0" layoutY="172.0" mnemonicParsing="false" onAction="#MuttonBadamiKormafn" prefHeight="30.0" prefWidth="195.0" text="Mutton Badami Korma" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="KulfiFaloodabtn" layoutX="488.0" layoutY="176.0" mnemonicParsing="false" onAction="#KulfiFaloodafn" prefHeight="30.0" prefWidth="128.0" text="Kulfi Faooda" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="greentebtn" layoutX="35.0" layoutY="150.0" mnemonicParsing="false" onAction="#greenteafn" prefHeight="30.0" prefWidth="128.0" text="Green Tea" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="wholeLambRoastbtn" layoutX="168.0" layoutY="99.0" mnemonicParsing="false" onAction="#wholeLambRoastfn" prefHeight="30.0" prefWidth="160.0" text="Whole Lamb Roast" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="Muttonjalfarezibtn" layoutX="320.0" layoutY="71.0" mnemonicParsing="false" onAction="#Muttonjalfarezifn" prefHeight="30.0" prefWidth="148.0" text="Mutton jalfarezi" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="Raitabtn" layoutX="35.0" layoutY="179.0" mnemonicParsing="false" onAction="#Raitafn" prefHeight="30.0" prefWidth="71.0" text="Raita" textFill="#d71313">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <Button fx:id="nextbtn" layoutX="534.0" layoutY="262.0" mnemonicParsing="false" onAction="#nextbtnfn" prefHeight="25.0" prefWidth="60.0" text="NEXT" textFill="#c60000">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="9.0" layoutY="191.0" prefHeight="61.0" prefWidth="160.0" text="Each For 100RS" textFill="#f20404">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="168.0" layoutY="215.0" prefHeight="53.0" prefWidth="195.0" text="Each For 500RS/Per Person" textFill="#e40808">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="485.0" layoutY="199.0" prefHeight="53.0" prefWidth="112.0" text="Each For 300RS" textFill="#e80606">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="220.0" prefHeight="53.0" prefWidth="112.0" text="/Per Person" textFill="#da0505">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="522.0" layoutY="218.0" prefHeight="53.0" prefWidth="112.0" text="/Per Person" textFill="#f80000">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="264.0" text="EXPECTED NUMBER OF PERSONS" textFill="#f80f0f">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="numberPersons" layoutX="325.0" layoutY="268.0" prefHeight="25.0" prefWidth="112.0" promptText="TOTAL PERSONS" />
+                  <Label layoutX="225.0" layoutY="8.0" prefHeight="36.0" prefWidth="171.0" text="Main  DISHES" textFill="#610000">
+                     <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="490.0" layoutY="14.0" prefHeight="30.0" prefWidth="148.0" text="DESSERT" textFill="#8d0404">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalpersons" layoutX="441.0" layoutY="258.0" prefHeight="45.0" prefWidth="44.0" textFill="#e80909">
+                     <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

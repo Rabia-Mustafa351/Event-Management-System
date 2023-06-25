@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="976.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="proceedtopay" layoutX="459.0" layoutY="344.0" mnemonicParsing="false" onAction="#proceedtopayfn" text="Proceed to pay" textFill="#d03a3a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="53.0" layoutY="100.0" prefHeight="39.0" prefWidth="112.0" text="EVENT:" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="127.0" prefHeight="39.0" prefWidth="136.0" text="EVENT TYPE:" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="154.0" prefHeight="39.0" prefWidth="136.0" text="PLACE:" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="228.0" prefHeight="39.0" prefWidth="136.0" text="Hall Charges" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="262.0" prefHeight="39.0" prefWidth="136.0" text="STAFF" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="295.0" prefHeight="39.0" prefWidth="136.0" text="FOOD" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="325.0" prefHeight="39.0" prefWidth="136.0" text="LIGHTNING" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Separator layoutX="49.0" layoutY="265.0" prefHeight="3.0" prefWidth="274.0" />
+      <Separator layoutX="187.0" layoutY="228.0" orientation="VERTICAL" prefHeight="136.0" prefWidth="6.0" />
+      <Separator layoutX="49.0" layoutY="299.0" prefHeight="3.0" prefWidth="274.0" />
+      <Separator layoutX="50.0" layoutY="333.0" prefHeight="3.0" prefWidth="274.0" />
+      <Separator layoutX="48.0" layoutY="227.0" prefHeight="3.0" prefWidth="274.0" />
+      <Separator layoutX="49.0" layoutY="363.0" prefHeight="3.0" prefWidth="274.0" />
+      <Separator layoutX="48.0" layoutY="227.0" orientation="VERTICAL" prefHeight="136.0" prefWidth="0.0" />
+      <Separator layoutX="321.0" layoutY="229.0" orientation="VERTICAL" prefHeight="136.0" prefWidth="6.0" />
+      <Button layoutX="125.0" mnemonicParsing="false" onAction="#bookevent10" prefHeight="58.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="373.0" layoutY="258.0" text="TOTAL:" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="250.0" mnemonicParsing="false" onAction="#eventtype10" prefHeight="58.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="382.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="119.0" text="About Us" textFill="#bc0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="123.0" layoutY="57.0" mnemonicParsing="false" onAction="#refreshbill" prefHeight="39.0" prefWidth="378.0" text="YOUR SERVICE BILL" textFill="#cd3737">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" mnemonicParsing="false" onAction="#back8" prefHeight="95.0" prefWidth="111.0" text="Back" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="eventType" layoutX="187.0" layoutY="132.0" prefHeight="31.0" prefWidth="119.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="eventPlace" layoutX="126.0" layoutY="159.0" prefHeight="31.0" prefWidth="153.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="hallcharges" layoutX="196.0" layoutY="232.0" prefHeight="31.0" prefWidth="119.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="staffcharges" layoutX="194.0" layoutY="267.0" prefHeight="27.0" prefWidth="66.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalcharges" layoutX="453.0" layoutY="262.0" prefHeight="31.0" prefWidth="146.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="foodcharges" layoutX="194.0" layoutY="299.0" prefHeight="27.0" prefWidth="66.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lightcharges" layoutX="195.0" layoutY="329.0" prefHeight="27.0" prefWidth="66.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="maineventlabel" layoutX="132.0" layoutY="104.0" prefHeight="31.0" prefWidth="146.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="182.0" prefHeight="39.0" prefWidth="112.0" text="DATE:" textFill="#e10404">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="date1" layoutX="117.0" layoutY="187.0" prefHeight="31.0" prefWidth="153.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="planname" layoutX="385.0" layoutY="123.0" prefHeight="95.0" prefWidth="198.0" textFill="#e43232">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="-1.0" mnemonicParsing="false" onAction="#home10" prefHeight="95.0" prefWidth="126.0" text="Home" textFill="#c90707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

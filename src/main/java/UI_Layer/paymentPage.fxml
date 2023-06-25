@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <ImageView fitHeight="307.0" fitWidth="826.0" layoutX="-110.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/header-image-payments.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="500.0" layoutY="-4.0" mnemonicParsing="false" onAction="#back11" prefHeight="58.0" prefWidth="102.0" text="Back" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="382.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="119.0" text="About Us" textFill="#bc0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" mnemonicParsing="false" onAction="#eventtype11" prefHeight="58.0" prefWidth="135.0" text="EVENT TYPE" textFill="#b20202">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" mnemonicParsing="false" onAction="#bookevent11" prefHeight="58.0" prefWidth="126.0" text="BOOK EVENT" textFill="#bf0e0e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="113.0" layoutY="57.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="398.0" text="Enter Your Card Details" textFill="#cd3737">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="-1.0" mnemonicParsing="false" onAction="#home11" prefHeight="97.0" prefWidth="126.0" text="Home" textFill="#c90707">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="cdnumber" layoutX="105.0" layoutY="146.0" prefHeight="25.0" prefWidth="174.0" promptText="card number" />
+      <TextField fx:id="digcvc" layoutX="105.0" layoutY="186.0" prefHeight="25.0" prefWidth="174.0" promptText="3 digit cvc">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TextField>
+      <DatePicker fx:id="cardExpdate" layoutX="105.0" layoutY="225.0" promptText="card expire date" />
+      <Button fx:id="paynow" layoutX="105.0" layoutY="282.0" mnemonicParsing="false" onAction="#paynowfn" prefHeight="45.0" prefWidth="126.0" text="Pay Now" textFill="#bf0e0e">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="bcm" layoutX="288.0" layoutY="167.0" prefHeight="43.0" prefWidth="311.0" textFill="#d01a1a">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Label>
+      <Button layoutX="500.0" layoutY="54.0" mnemonicParsing="false" onAction="#LOGOUTFN" prefHeight="25.0" prefWidth="102.0" text="Log Out" textFill="#b50404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="bcm1" layoutX="281.0" layoutY="139.0" prefHeight="39.0" prefWidth="39.0" textFill="#c93131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="bcm11" layoutX="281.0" layoutY="181.0" prefHeight="39.0" prefWidth="39.0" textFill="#c93131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="bcm12" layoutX="281.0" layoutY="218.0" prefHeight="39.0" prefWidth="304.0" textFill="#c93131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

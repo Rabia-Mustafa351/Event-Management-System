@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #202f;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="336.0" fitWidth="256.0" layoutX="-10.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/weddingimage.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="weddingbutton1" layoutX="58.0" layoutY="130.0" mnemonicParsing="false" onAction="#weddingbutPage" text="WEDDING" textFill="#d70c0c">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="60.0" prefWidth="677.0" style="-fx-background-color: #faeeef;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#home1" prefHeight="87.0" prefWidth="139.0" text="Home" textFill="#c90707">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="139.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="133.0" text="BOOK EVENT" textFill="#bf0e0e">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="272.0" mnemonicParsing="false" onAction="#eventtype1" prefHeight="87.0" prefWidth="133.0" text="EVENT TYPE" textFill="#b20202">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="405.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="135.0" text="About Us" textFill="#bc0303">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="540.0" mnemonicParsing="false" onAction="#logout1" prefHeight="86.0" prefWidth="137.0" text="Log Out" textFill="#b50404">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.5104895104895105" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="338.0" fitWidth="474.0" layoutX="-9.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/other.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="69.0" layoutY="129.0" mnemonicParsing="false" text="PARTY" textFill="#d70c0c">
+                     <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="-2.0" layoutY="-6.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="219.0" text="SELECT EVENTS" textFill="#d70c0c">
+                     <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="356.0" fitWidth="508.0" layoutX="-61.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/party.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="55.0" layoutY="133.0" mnemonicParsing="false" text="OTHER" textFill="#d70c0c">
+                     <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>
